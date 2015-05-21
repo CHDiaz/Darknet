@@ -1,7 +1,9 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿//Christian Diaz
 //I grabbed this script online, it works perfectly but I dont remember where I got it from.
 //Its a basic camera script. Camera follows an object, using dampTime to cause a smooth transition. 
+using UnityEngine;
+using System.Collections;
+
 
 
 public class CamFollowObj : MonoBehaviour {

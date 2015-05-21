@@ -20,7 +20,7 @@ public class DetectKeys : MonoBehaviour {
 	void Update () {
 		if (parentSlot != null && Input.GetAxisRaw (slotName) > 0.0) {
 			Debug.Log ("Casting " + slotName);
-			parentSlot.SpellCast ();
+//			parentSlot.SpellCast ();
 		}
 
 	
